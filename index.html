@@ -1,0 +1,41 @@
+<html lang="">
+
+<head>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1"
+          charset="UTF-8">
+    <link href="format.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Twitter Clone</title>
+
+</head>
+
+<body class="bg-light">
+
+
+<div class="header bg-info">
+</div>
+<div class="spacer">
+
+</div>
+
+<div class="w-100 p-1 d-flex justify-content-center">
+
+    <div class="d-flex flex-column minw500">
+        <div class="w-100 bg-white p-3 shadow">
+            <textarea   id="tweet" placeholder="write something"
+                      class="form-control p-2 mb-2 border"></textarea>
+            <button id="count" class="btn btn-info" onclick="createTweet()">Tweet</button>
+        </div>
+        <hr class="w-100 border">
+        <div class="w-100" id="news_feed">
+
+        </div>
+    </div>
+
+</div>
+</body>
+
+<script src="index.js"> </script>
+
+</html>
